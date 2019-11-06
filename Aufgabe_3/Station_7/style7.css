@@ -1,0 +1,73 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-image: url(images/bg.png);
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 410px;
+    top: 100px;
+    z-index: 0;
+}
+#nature {
+    position: absolute;
+    left: -70px;
+    top: -60px;
+    z-index: 1;
+}
+#gifts {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    z-index: 2;
+}
+#star1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+#star2 {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    z-index: 2;
+}
+#star3 {
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    z-index: 2;
+}
+video {
+    position: absolute;
+    bottom: 31px;
+    right: 23px;
+    z-index: 1;
+}
+h1 {
+    position: absolute;
+    width: 600px;
+    top: 130px;
+    left: 50px;
+    text-align: left;
+    font-family: fantasy;
+    font-size: 25pt;
+    color: white;
+    text-decoration: underline;
+    z-index: 2;
+}
+p {
+    position: absolute;
+    width: 357px;
+    left: 50px;
+    top: 235px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 16pt;
+    color: white;
+    z-index: 2;
+   }
