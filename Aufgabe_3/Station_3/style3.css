@@ -1,0 +1,48 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-image: url(images/bg.png);
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 410px;
+    top: 100px;
+}
+.star:hover {
+    background-image: url(images/stern_hover.png);
+}
+#star1 {
+    position: absolute;
+    left: 48px;
+    bottom: 130px;
+}
+#star2 {
+    position: absolute;
+    left: 150px;
+    top: 140px;
+}
+#star3 {
+    position: absolute;
+    left: 255px;
+    bottom: 70px;
+}
+#star4 {
+    position: absolute;
+    right: 115px;
+    bottom: 140px;
+}
+p {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 500px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    color: white;
+}
+#line2 {
+    top: 70px;
+}

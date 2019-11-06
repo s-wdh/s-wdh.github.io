@@ -1,0 +1,25 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-image: url(images/bg.png);
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 410px;
+    top: 100px;
+    z-index: 0;
+}
+iframe {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}
+.banderole {
+    position: absolute;
+    right: 2px;
+    bottom: 11px;
+    z-index: 2;
+}

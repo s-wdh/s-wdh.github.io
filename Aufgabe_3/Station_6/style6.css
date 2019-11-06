@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+    text-align: left;
+    background-image: url(images/bg.png);
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 410px;
+    top: 100px;
+}
+.text {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+h1 {
+    font-size: 25pt;
+    text-decoration: underline;
+}
+.twocolumns {
+    max-width: 510px;
+    column-count: 2;
+    column-gap: 40px;
+    column-width: 235px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.threecolumns {
+    max-width: 502px;
+    column-count: 3;
+    column-gap: 30px;
+    column-width: 147px;
+}
