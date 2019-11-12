@@ -1,0 +1,75 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+div {
+    position: relative;
+    margin: auto;
+    top: 100px;
+    width: 640px;
+    height: 480px;
+}
+@media only screen and (max-width: 600px) {
+    .smartphone {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+  }
+@media only screen and (min-width: 640px) and (max-width: 1040px) {
+    .smartphone {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1040px) {
+    .dektop {
+        display: block;
+    }
+}
+.desktop {
+    position: absolute;
+    top: 300px;
+}
+.smartphone {
+    position: absolute;
+    top: 320px;
+}
+h1 {
+    position: absolute;
+    width: 640px;
+    top: 50px; 
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    color: white;
+    text-decoration: underline;
+}
+p {
+    position: absolute;
+    left: 100px;
+    top: 205px;
+    text-align: center;
+    width: 440px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: medium;
+}
+#winsecond {
+    position: absolute;
+    left: 100px;
+    top: 225px;
+}
+a {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    text-align: center;
+    width: 640px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+}
