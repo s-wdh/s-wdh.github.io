@@ -1,0 +1,8 @@
+eventlistener klick
+je region eigene funktionen
+ergebnisse müssen in dom (innerhtml/setatribute)
+
+je kontinent eine funktion erstellen
+eventhandling aufsetzen
+werte in html schreiben
+in überschrift span einfügen um nur einen teil davon zu ändern. und diesem natürlich klasse zuordnen usw
