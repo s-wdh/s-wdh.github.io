@@ -1,0 +1,8 @@
+CSS:
+transition: Wertesprung zB bei Balken wird animiert
+
+Typescript:
+
+Runden: function.tofixed (nachkommastellen)
+in überschrift span einfügen um nur einen teil davon in ts zu ändern. und diesem natürlich klasse zuordnen usw.
+Element leibt bei Auswahl markiert: setattribute class active und bei anderen setclass "nichts"
