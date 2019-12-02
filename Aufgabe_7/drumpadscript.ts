@@ -2,10 +2,10 @@ window.addEventListener("load", function () {
     document.querySelector("#btn1").addEventListener("mousedown", function () { playSample("assets/kick.mp3") });
     document.querySelector("#btn2").addEventListener("mousedown", function () { playSample("assets/snare.mp3") });
     document.querySelector("#btn3").addEventListener("mousedown", function () { playSample("assets/hihat.mp3") });
-    document.querySelector("#btn4").addEventListener("mousedown", function () { playSample("assets/f.mp3") });
-    document.querySelector("#btn5").addEventListener("mousedown", function () { playSample("assets/g.mp3") });
-    document.querySelector("#btn6").addEventListener("mousedown", function () { playSample("assets/a.mp3") });
-    document.querySelector("#btn7").addEventListener("mousedown", function () { playSample("assets/c.mp3") });
+    document.querySelector("#btn4").addEventListener("mousedown", function () { playSample("assets/F.mp3") });
+    document.querySelector("#btn5").addEventListener("mousedown", function () { playSample("assets/G.mp3") });
+    document.querySelector("#btn6").addEventListener("mousedown", function () { playSample("assets/A.mp3") });
+    document.querySelector("#btn7").addEventListener("mousedown", function () { playSample("assets/C.mp3") });
     document.querySelector("#btn8").addEventListener("mousedown", function () { playSample("assets/laugh-1.mp3") });
     document.querySelector("#btn9").addEventListener("mousedown", function () { playSample("assets/laugh-2.mp3") });
     document.querySelector("#play").addEventListener("mousedown", beatstart);
