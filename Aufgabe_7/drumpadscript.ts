@@ -20,17 +20,19 @@ function playSample(mp3assets: string) {
 function beatstart() {
     var beat: string[] = ["assets/kick.mp3", "assets/kick.mp3", "assets/snare.mp3", "assets/kick.mp3", "assets/hihat.mp3"]
     var index: number = 0;
-    var time = setInterval (beatplay, 500);
+    var time = setInterval(beatplay, 500);
     function beatplay() {
         /* playSample(); */
         var sound: HTMLAudioElement = new Audio(beat[index]);
         sound.play();
         index++;
-        if (index > 4) index = 0;
+        if (index > 4) {
+            index = 0;
+        }
     }
     document.querySelector("#stop").addEventListener("mousedown", stopbeat);
-    function stopbeat(){
-        clearInterval (time);
+    function stopbeat() {
+        clearInterval(time);
     }
 }
 

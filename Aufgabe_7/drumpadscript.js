@@ -24,8 +24,9 @@ function beatstart() {
         var sound = new Audio(beat[index]);
         sound.play();
         index++;
-        if (index > 4)
+        if (index > 4) {
             index = 0;
+        }
     }
     document.querySelector("#stop").addEventListener("mousedown", stopbeat);
     function stopbeat() {
