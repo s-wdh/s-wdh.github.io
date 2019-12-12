@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
     document.querySelector("#play").addEventListener("mousedown", beatstart);
 });
 
-function playSample(mp3assets: string) {
+function playSample(mp3assets: string): void {
     var sound: HTMLAudioElement = new Audio(mp3assets);
     sound.play();
 }

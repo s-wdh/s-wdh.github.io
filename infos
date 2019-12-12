@@ -1,8 +1,18 @@
+Allgemeines:
+    Flussdiagramme online erstellen: draw.io
+    codeacademy
+    stackoverflow.com
+    mdn web docs
+    kein selfhtml nutzen -> veraltet
+
+Herangehensweise:
+    Flowchart auf Papier (->Reihenfolge, Arbeitsfluss)
+    Prototyp erstellen
+
 CSS:
-transition: Wertesprung zB bei Balken wird animiert
+    transition: Wertesprung zB bei Balken wird animiert
 
 Typescript:
-
-Runden: function.tofixed (nachkommastellen)
-in überschrift span einfügen um nur einen teil davon in ts zu ändern. und diesem natürlich klasse zuordnen usw.
-Element leibt bei Auswahl markiert: setattribute class active und bei anderen setclass "nichts"
+    Runden: function.tofixed (nachkommastellen)
+    in überschrift span einfügen um nur einen teil davon in ts zu ändern. und diesem natürlich klasse zuordnen usw.
+    Element bleibt bei Auswahl markiert: setattribute class active und bei anderen setclass "nichts"

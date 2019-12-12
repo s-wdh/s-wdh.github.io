@@ -1,10 +1,10 @@
-var test:string = "Hallo ";
+var hallo:string = "Hallo ";
 var welt:string = "Welt ";
 
 var zahl1:number = 90;
 var zahl2:number = -20;
 
-console.log(test+welt);
+console.log(hallo+welt);
 console.log(zahl1+zahl2);
 
 
