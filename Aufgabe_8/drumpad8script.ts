@@ -92,7 +92,7 @@ function playSample(mp3assets: string) {
  */
 var kick: any;
 
-function beatplay(): void {
+function beatstart(): void {
     var index: number = 0;
     
     if ( document.getElementById("play").classList.contains("fa-play") ) {

@@ -85,7 +85,7 @@ function playSample(mp3assets: string) {
 }
 */
 var kick;
-function beatplay() {
+function beatstart() {
     var index = 0;
     if (document.getElementById("play").classList.contains("fa-play")) {
         document.getElementById("play").classList.remove("fa-play");
