@@ -92,7 +92,7 @@ button:hover {
     opacity: 1;
     cursor: pointer;
 }
-#stop {
+/* #stop {
     position: absolute;
     left: 50px;
     top: 510px;
@@ -100,7 +100,7 @@ button:hover {
     color: #ffffff;
     opacity: 1;
     cursor: pointer;
-}
+} */
 #record {
     position: absolute;
     top: 510px;
@@ -123,10 +123,10 @@ button:hover {
     color: #7f7f7f;
     cursor: pointer;
 }
-#stop:hover {
+/* #stop:hover {
     color: #7f7f7f;
     cursor: pointer;
-}
+} */
 #record:hover {
     color: #7f7f7f;
     cursor: pointer;
