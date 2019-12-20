@@ -119,6 +119,6 @@ button:hover {
     cursor: pointer;
 }
 #delete:hover {
-    color: #7f7f7f;
+    color: #ff0000;
     cursor: pointer;
 }

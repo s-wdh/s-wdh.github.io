@@ -86,7 +86,7 @@ function beatstart(): void {
     function myBeat (): void {
         playSample(beat [index]);
         index ++;
-        if (index > (beat.length - 1)) index = 0;
+        if (index >= beat.length) index = 0;
         console.log(beat [index] );
     }
 }

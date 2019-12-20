@@ -78,7 +78,7 @@ function beatstart() {
     function myBeat() {
         playSample(beat[index]);
         index++;
-        if (index > (beat.length - 1))
+        if (index >= beat.length)
             index = 0;
         console.log(beat[index]);
     }
