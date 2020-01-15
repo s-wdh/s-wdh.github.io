@@ -2,16 +2,16 @@ var myMP3;
 var beat = ["kick.mp3", "kick.mp3", "snare.mp3", "kick.mp3", "hihat.mp3"];
 var record = false;
 window.addEventListener("load", function () {
-    document.querySelector("#btn1").addEventListener("mousedown", function () { playSample("kick.mp3"); });
-    document.querySelector("#btn2").addEventListener("mousedown", function () { playSample("snare.mp3"); });
-    document.querySelector("#btn3").addEventListener("mousedown", function () { playSample("hihat.mp3"); });
-    document.querySelector("#btn4").addEventListener("mousedown", function () { playSample("F.mp3"); });
-    document.querySelector("#btn5").addEventListener("mousedown", function () { playSample("G.mp3"); });
-    document.querySelector("#btn6").addEventListener("mousedown", function () { playSample("A.mp3"); });
-    document.querySelector("#btn7").addEventListener("mousedown", function () { playSample("C.mp3"); });
-    document.querySelector("#btn8").addEventListener("mousedown", function () { playSample("laugh-1.mp3"); });
-    document.querySelector("#btn9").addEventListener("mousedown", function () { playSample("laugh-2.mp3"); });
-    document.querySelector("#play").addEventListener("mousedown", beatstart);
+    document.querySelector("#btn1").addEventListener("mousedown", function () { playSnippet("kick.mp3"); });
+    document.querySelector("#btn2").addEventListener("mousedown", function () { playSnippet("snare.mp3"); });
+    document.querySelector("#btn3").addEventListener("mousedown", function () { playSnippet("hihat.mp3"); });
+    document.querySelector("#btn4").addEventListener("mousedown", function () { playSnippet("F.mp3"); });
+    document.querySelector("#btn5").addEventListener("mousedown", function () { playSnippet("G.mp3"); });
+    document.querySelector("#btn6").addEventListener("mousedown", function () { playSnippet("A.mp3"); });
+    document.querySelector("#btn7").addEventListener("mousedown", function () { playSnippet("C.mp3"); });
+    document.querySelector("#btn8").addEventListener("mousedown", function () { playSnippet("laugh-1.mp3"); });
+    document.querySelector("#btn9").addEventListener("mousedown", function () { playSnippet("laugh-2.mp3"); });
+    document.querySelector("#play").addEventListener("mousedown", beatplay);
     document.querySelector("#record").addEventListener("mousedown", beatrecord);
     document.querySelector("#delete").addEventListener("mousedown", beatdelete);
 });
@@ -52,7 +52,7 @@ window.addEventListener("load", function () {
             break;
     }
 } */
-function playSample(myMP3) {
+function playSnippet(myMP3) {
     var sound = new Audio("assets/" + myMP3);
     sound.play();
     if (record == true) {
@@ -60,7 +60,7 @@ function playSample(myMP3) {
     }
 }
 var kick;
-function beatstart() {
+function beatplay() {
     var index = 0;
     if (document.getElementById("play").classList.contains("fa-play")) {
         document.getElementById("play").classList.remove("fa-play");
@@ -76,7 +76,7 @@ function beatstart() {
         console.log("Beatstop");
     }
     function myBeat() {
-        playSample(beat[index]);
+        playSnippet(beat[index]);
         index++;
         if (index >= beat.length)
             index = 0;
