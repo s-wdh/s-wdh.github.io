@@ -248,12 +248,21 @@ window.addEventListener("load", function (): void {
         smart: true,
         action: function (i: any, wildcard: string): void {
             console.log("Neue Aufgabe " + wildcard + " wurde erstellt.");
-            let temp: Tasks = {
+            /* inputDOMElement.value = wildcard;
+            addTodo(); */
+            
+            /* let temp: Tasks = {
                 name: wildcard,
                 check: false
             };
             
-            tasks.push(temp);
+            tasks.push(temp); */    
+
+            tasks.push({
+                name: (wildcard),
+                check: false
+            });
+            drawListToDOM();
         }
     });
 
