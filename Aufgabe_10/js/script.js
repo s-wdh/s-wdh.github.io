@@ -194,11 +194,19 @@ window.addEventListener("load", function () {
         smart: true,
         action: function (i, wildcard) {
             console.log("Neue Aufgabe " + wildcard + " wurde erstellt.");
-            var temp = {
+            /* inputDOMElement.value = wildcard;
+            addTodo(); */
+            /* let temp: Tasks = {
                 name: wildcard,
                 check: false
             };
-            tasks.push(temp);
+            
+            tasks.push(temp); */
+            tasks.push({
+                name: (wildcard),
+                check: false
+            });
+            drawListToDOM();
         }
     });
     function startContinuousArtyom() {
